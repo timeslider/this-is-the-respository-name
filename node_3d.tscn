@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://begnf1d8b4hto"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_kdtqq"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_kdtqq")
